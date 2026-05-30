@@ -1,0 +1,12 @@
+age_of_child = int(input("Please input the age of the child: "))
+kindergarten_age = 5
+
+if age_of_child < kindergarten_age:
+    print("Child is not old enough to go to kindergarten.")
+
+elif age_of_child == kindergarten_age:
+    print("Child is exactly the right age to go to kindergarten.")
+
+else:
+    print("Child is too old to go to kindergarten.")
+# This function asks the user for the age of a child and checks if they are old enough to go to kindergarten, if they are exactly the right age, or if they are too old.
